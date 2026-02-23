@@ -131,7 +131,7 @@
     footer { padding:24px 52px; border-top:1px solid var(--border); display:flex; align-items:center; justify-content:space-between; position:relative; z-index:1; }
     .footer-l { font-family:'Fraunces',serif; font-style:italic; font-weight:300; font-size:16px; color:var(--muted); }
     .footer-r { font-family:'DM Mono',monospace; font-size:11px; color:var(--muted); letter-spacing:0.08em; text-transform:uppercase; }
-    .reveal { opacity:0; transform:translateY(20px); transition:opacity 0.7s cubic-bezier(.22,1,.36,1),transform 0.7s cubic-bezier(.22,1,.36,1); }
+    .reveal { opacity:1; transform:none; transition:opacity 0.7s cubic-bezier(.22,1,.36,1),transform 0.7s cubic-bezier(.22,1,.36,1); }
     .reveal.in { opacity:1; transform:none; }
     @media(max-width:960px){nav{padding:0 28px;}.container{padding:0 28px;}.hero-layout{grid-template-columns:1fr;padding:0 28px;}.hero-left{border-right:none;border-bottom:1px solid var(--border);padding:60px 0 48px;}.hero-right{display:grid;grid-template-columns:repeat(2,1fr);padding:36px 0;gap:24px;}.hero-stat{border-bottom:none;padding-bottom:0;}.about-cols{grid-template-columns:1fr;gap:48px;}.proj-grid{grid-template-columns:1fr;}.proj-card.wide{grid-column:span 1;}.proj-card.wide .proj-inner{grid-template-columns:1fr;gap:28px;}.skills-layout{grid-template-columns:1fr 1fr;}.contact-wrap{grid-template-columns:1fr;}.contact-left,.contact-right{padding:48px 28px;}.email-big{font-size:20px;}footer{flex-direction:column;gap:8px;text-align:center;}}
     @media(max-width:600px){.nav-links{display:none;}.nav-cta{display:none;}.skills-layout{grid-template-columns:1fr;}}
@@ -154,7 +154,7 @@
       <div class="hero-layout">
         <div class="hero-left">
           <div class="hero-eyebrow">AI Engineer · Abuja, Nigeria</div>
-          <h1 class="hero-name">Building<br><em class="hero-name-italic">intelligence</em><br>into systems</h1>
+          <h1 class="hero-name">Building<br><em class="hero-name-italic">intelligence</em> into systems</h1>
           <p class="hero-desc">I design and deploy <strong>LLM-powered applications</strong>, <strong>multi-agent frameworks</strong>, and production ML pipelines — turning complex data problems into solutions that actually work at scale.</p>
           <div class="hero-actions">
             <a href="#projects" class="btn btn-fill">View work</a>
@@ -328,7 +328,8 @@
             <div class="contact-left">
               <div class="s-label">Get in touch</div>
               <h2 class="s-title">Open to work<br><em>& collaboration</em></h2>
-              <p class="contact-sub">Available for full-time roles, contracts, and consulting. Based in Abuja — fully remote-ready across time zones.</p>
+              <p class="contact-sub">Available for full-time roles, contracts, and consulting — fully remote-ready across time zones.</p>
+              <blockquote style="margin-top:32px;padding:24px 28px;border-left:2px solid rgba(255,255,255,0.2);font-family:'Fraunces',serif;font-style:italic;font-weight:300;font-size:16px;color:rgba(255,255,255,0.6);line-height:1.7;">&ldquo;AI just reached its landing pad.<br>The next decade? That&rsquo;s when we take off.&rdquo;<br><span style="display:block;margin-top:12px;font-family:'DM Mono',monospace;font-style:normal;font-size:11px;letter-spacing:0.1em;color:rgba(255,255,255,0.35);">&#8212; Temidayo</span></blockquote>
               <div class="contact-rows">
                 <a href="https://linkedin.com/in/akinbowatemidayo" target="_blank" class="c-row"><span class="c-ico">💼</span><span class="c-val">linkedin.com/in/akinbowatemidayo</span></a>
                 <a href="https://github.com/T-emi-dayo" target="_blank" class="c-row"><span class="c-ico">🐙</span><span class="c-val">github.com/T-emi-dayo</span></a>
